@@ -1,0 +1,84 @@
+Paths:
+
+GUM or PAPER CLIP will get you LOCKPICK
+-Instead of picking the locks of two businesses with paper clip, lock will jam
+-One turn after lock jams, locksmith truck arrives
+-Have different place descriptions for lock jammed, no truck and lock jammed, truck
+-Once the player has the lockpick, truck goes away and store opens.
+
+Optional
+    -Pencil
+    -Concierge Desk Notepad (find out room needs towels)
+Towels (LOCKPICK into supply closet or LINEMANS HANDSET)
+Get bag check ticket
+Macau Grand Hotel Room
+
+    OR
+
+Coffee->Room Key
+    Room Key->Pickpocket bag check ticket
+    Check ticket->Gym bag
+        Gym bag->Go to gym
+        Go to gym->Get parking garage ticket
+        Check address on ticket->Go to car
+
+Fitzgerald Hotel Room
+
+Game elements to add:
+-More context sensitive hints for new mechanics?
+-Paper clip cannot be used to pick filing cabinet, but can jam the lock of a business that's about to open.
+-Gum can also be used to jam the lock of a business
+    - I try the passenger door of the locksmith van. Ironically, it's open.
+-When trying to lockpick public building on street: "I think people might notice if I pick the lock in broad daylight."
+
+Exposition:
+-Take bag from ceiling 
+-Optionally take bag from toilet
+-Newspaper on street
+-Mention RICO in reference to case
+
+Front Desk
+Too well staffed to sneak out their notepad/computers
+Paying too close attention to make your own keys, will have to find them elsewhere
+
+Everett-Fitzgerald Hotel
+-Executives want coffee
+-Upon getting coffee, will give keys to occupied suite
+-Sabotaged coffee will result in spill, drops expensive watch.
+-Getting more coffee gets player in suite to look for more items
+    -Pickpocket baggage claim ticket
+        -Baggage claim ticket gives gym bag, entry to gym
+
+Macau Grand
+-Take out electrician, take uniform, card key
+    - Possible to knock out/hit, choke, shoot (with pistol)
+-Blue boxing from switchboard room
+    - Call locksmith to make locksmith van appear
+
+Three Oh Eight Columbus
+-Pose as DJ for rooftop bar?
+-Start conversation with caterers?
+-Goal is resolved by tickets from Carnegie Hall, exchange for room key
+
+Carnegie Hall Lobby
+-Buy tickets
+
+-Bad guy set to testify against mafia bosses, gets taken out anyway
+-Used to be a boxer, takes early morning jogs
+-Dog appears in increasingly improbable locations
+-On way back from hit, all gone
+
+-Closed location passed several times, Animal Hospital. Nameplate has Albert Day, DVM
+
+-Optional objective, take out bodyguard
+
+-Final cutscene, see beta from afar, make eye contact. Uses PC's name, "Al" for the first time."That was the last time I ever really trusted anyone again."
+
+I've taken contracts since then. Many, many contracts. But I always turned them down if the target didn't suit my interests. That's a luxury that having a day job affords me. Most people would say that what I do isn't right. But I'm careful, selective. Make sure I know who they really are.
+
+A small group of joggers, possibly triathlon trainees, run past with the singleminded determination of a pack of malamutes pulling a sled.
+
+- Change description of Central Park location after the climax of the story to include badguy shot
+
+- Two names on the animal hospital sign, one male, one female
+- As a result, the janitor in the bathroom also needs to be ambiguously gendered. Need to avoid all pronouns.
