@@ -1,5 +1,8 @@
 Paths:
 
+- Crossed keys on concierge uniform at the Ritz
+-"go outside" from office lobby should work as well as "out"
+
 GUM or PAPER CLIP will get you LOCKPICK
 -Instead of picking the locks of two businesses with paper clip, lock will jam
 -One turn after lock jams, locksmith truck arrives
@@ -80,5 +83,12 @@ A small group of joggers, possibly triathlon trainees, run past with the singlem
 
 - Change description of Central Park location after the climax of the story to include badguy shot
 
+-Even money says a merger/acquisition or a lawsuit.
+
 - Two names on the animal hospital sign, one male, one female
 - As a result, the janitor in the bathroom also needs to be ambiguously gendered. Need to avoid all pronouns.
+
+
+Random things to add:
+-Broken mirror in the Public Bathroom.
+-I peel off a few twenties and pay for the dozen coffees.
