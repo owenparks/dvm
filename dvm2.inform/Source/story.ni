@@ -16,12 +16,18 @@ The paper clip is in the Empty Cubicles.
 The broken paper clip is a thing.
 The crowbar is a thing.
 
-A stack of cash is in the duffel bag. The description is "A banded stack of twenties, totaling $2,000, weighing just under 0.23 pounds. It's all I have left in loose cash, the rest is already spent, so to speak."
+A gun is a kind of thing.
+A gun can be aimed or unaimed. A gun is usually unaimed.
+The rifle is in the duffel bag. The rifle is a gun.
+
+A stack of cash is in the duffel bag. The description is "A banded stack of twenties, totaling $2,000, weighing just under 0.23 pounds. It's all I have left in loose cash, the rest is already spent, so to speak." Understand "money" as cash.
 The dozen coffees are a thing.
 The ticket is a thing. The ticket is in the fitz_conf. The description of the ticket is "A green bag check ticket with the logo of the Everett-Fitzgerald hotel and a number printed on it."
 The gym bag is a closed openable container. The description is "I can tell the owner of the gym bag is male and image conscious-- it's a sleek black and red and looks like the seat from a sports car.".
 workout clothes are in the gym bag. workout clothes are wearable. The description is "They're from an expensive athletic clothing brand, exactly the sort of thing a yuppie alpha male would wear to show off at the gym.".
 The pass is a thing. The pass is in the gym bag.
+The envelope is a thing. The envelope is in the lockers. The envelope is a closed openable container.
+The hotel key is a thing. The hotel key is in the envelope.
 
 The notepad is a thing.
 The pencil is in the Office Lobby.
@@ -38,10 +44,19 @@ Carry out taking off the workout clothes:
 
 Section NPCs
 
+A person can be alive or dead. A person is usually alive.
+
 The concierge is a man. The concierge is in the fitz_lobby.
 Instead of giving or showing the ticket to the concierge:
 	Remove the ticket from play;
 	Now the player has the gym bag.
+	
+The manager is a woman. The manager is in the gym_front.
+Instead of giving or showing the pass to the manager:
+	Remove the pass from play;
+	Now the manager has the pass.
+
+The informant is a man. The informant is in Central Park South.
 
 Section Breaking
 
@@ -49,6 +64,15 @@ A thing can be breakable or unbreakable. A thing is usually unbreakable.
 Understand the command "break" as something new.
 Breaking is an action applying to one thing. Understand "break [something]" as breaking.
 Breaking it with is an action applying to one visible thing and one carried thing. Understand "break [something] with [something preferably held]" as breaking it with.
+
+
+Section Gameplay Tweaks
+
+[Disable take all]
+After reading a command:
+	if the player's command includes "all/everything/every":
+		say "You'll have to be more specific.";
+		reject the player's command.
 
 Section Elevators
 
@@ -70,6 +94,18 @@ Instead of taking the down_elevator:
 When play begins:
 	move the down_elevator backdrop to all down_lobby rooms.
 	
+Section Final Shot
+
+A vantage_point is a kind of room.
+
+Carry out taking the rifle:
+	If the location is a vantage_point:
+		say "I take out the rifle and assemble it.";
+		continue the action;
+	otherwise:
+		say "This is hardly the sort of place I should be pulling out a rifle.";
+		stop the action.
+
 Section Bathroom
 
 The Public Bathroom is a room. The description is "I'm in a public bathroom, lit by a single buzzing fluorescent light. A sink juts out of the wall, the hot water knob missing. A dusty sign above it reads, 'Employees must wash hands before returning to work.' A toilet sits in the corner. There's no toilet paper."
@@ -149,6 +185,10 @@ w58_aveam is a room. w58_aveam is outside of the Office Lobby. The printed name 
 
 w59_aveam is a room. w59_aveam is north of w58_aveam. The printed name of w59_aveam is "W 59th St. and Avenue of the Americas".
 
+w59_7 is a room. w59_7 is west of w59_aveam. The printed name of w59_7 is "W 59th St. and 7th Ave.".
+
+w58_7 is a room. w58_7 is south of w59_7. The printed name of w58_7 is "W 58th St. and 7th Ave.".
+
 fitz_outside is a room. fitz_outside is east of w59_aveam. The printed name of fitz_outside is "Outside the Everett-Fitzgerald Hotel".
 
 Section Olympia Coffee
@@ -169,10 +209,71 @@ After reading a command:
 Section Everett-Fitzgerald
 
 fitz_lobby is a room. fitz_lobby is south of fitz_outside. The printed name of fitz_lobby is "Everett-Fitzgerald Hotel Lobby".
-instead of going east:
+instead of going east in the fitz_lobby:
 	if the player does not have the dozen coffees and the dozen coffees is not in the fitz_conf:
 		stop the action;
 	otherwise:
 		continue the action.
 
 fitz_conf is a room. fitz_conf is east of fitz_lobby. The printed name of fitz_conf is "Conference Room".
+
+Section Gym
+
+gym_front is a room. gym_front is east of w58_7. The printed name of gym_front is "Empire Athletic Club".
+Instead of going east in the gym_front:
+	if the manager does not have the pass:
+		stop the action;
+	otherwise:
+		continue the action.
+		
+Instead of going south in the gym_front:
+	if the manager does not have the pass:
+		stop the action;
+	otherwise:
+		continue the action.
+
+gym_locker is a room. gym_locker is east of gym_front. The printed name of gym_locker is "Locker Room". The lockers are a closed openable container in the gym_locker.
+
+gym_workout is a room. gym_workout is south of gym_front. The printed name of gym_workout is "Gym".
+
+Section Macau Grand
+
+columbus_circle is a room. columbus_circle is west of w59_7. The printed name of columbus_circle is "Columbus Circle".
+
+macau_outside is a room. macau_outside is west of columbus_circle. The printed name of macau_outside is "Outside the Macau Grand Hotel".
+
+macau_lobby is a room. macau_lobby is north of macau_outside. The printed name of macau_lobby is "Macau Grand Hotel Lobby". macau_lobby is an up_lobby.
+Instead of going up in the macau_lobby:
+	if the player has the hotel key:
+		continue the action;
+	otherwise:
+		say "I'll need the key to a room before I can use the elevator.";
+		stop the action.
+
+macau_hall is a room. macau_hall is above the macau_lobby. The printed name of macau_hall is "Hallway". macau_hall is a down_lobby.
+
+macau_room is a room. macau_room is east of the macau_hall. The printed name of macau_room is "Presidential Suite". macau_room is a vantage_point.
+
+Section Shooting
+
+After reading a command:
+	If the location is a vantage_point:
+		if the player's command matches "shoot rifle":
+			if the rifle is aimed:
+				say "Shootbangs";
+				now the informant is dead;
+			otherwise:
+				say "I'll have to aim it first.";
+		if the player's command matches "aim rifle":
+			now the rifle is aimed;
+		stop the action.
+
+Section Endgame
+
+Every turn:
+	If the informant is dead:
+		say "I should head to work.".
+		
+Section Vet
+
+The vet_office is south of w58_7. The printed name of the vet_office is "Midtown Animal Hospital".

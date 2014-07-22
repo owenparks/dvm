@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x2b2060" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x3ed410" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xf517990" />
-  <item nodeId="node-0x2b2060">
+  <activeNode nodeId="node-0x15d3b0" />
+  <item nodeId="node-0x3ed410">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 DVM
 An Interactive Fiction by spanky
-Release 1 / Serial number 140627 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 140721 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD
 
 Public Bathroom
 I&apos;m in a public bathroom, lit by a single buzzing fluorescent light. A sink juts out of the wall, the hot water knob missing. A dusty sign above it reads, &quot;Employees must wash hands before returning to work.&quot; A toilet sits in the corner. There&apos;s no toilet paper.
@@ -19,28 +19,862 @@ I can see a bathroom door and a loose ceiling tile here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="659">NO</temporary>
+    <temporary score="69">NO</temporary>
     <children>
-      <child nodeId="node-0x2f1900" />
-      <child nodeId="node-0x2f0ee0" />
-      <child nodeId="node-0x2f0e70" />
-      <child nodeId="node-0x2b20b0" />
+      <child nodeId="node-0xa6c4b10" />
+      <child nodeId="node-0xa6c4020" />
+      <child nodeId="node-0xa7e8e60" />
+      <child nodeId="node-0x3ed310" />
     </children>
   </item>
-  <item nodeId="node-0x2b20b0">
+  <item nodeId="node-0x3ed310">
     <command xml:space="preserve">stand on toilet</command>
     <result xml:space="preserve">You are now standing on the toilet.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="659">YES</temporary>
+    <temporary score="109">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0bd0" />
-      <child nodeId="node-0x2b1e20" />
+      <child nodeId="node-0xa6c3a00" />
+      <child nodeId="node-0xa6c2260" />
+      <child nodeId="node-0xa6bbab0" />
+      <child nodeId="node-0xa6bb180" />
+      <child nodeId="node-0x3ed360" />
     </children>
   </item>
-  <item nodeId="node-0x2b1e20">
+  <item nodeId="node-0x3ed360">
+    <command xml:space="preserve">take ceiling tile</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x3ed580" />
+    </children>
+  </item>
+  <item nodeId="node-0x3ed580">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Public Bathroom (on the toilet)
+I&apos;m in a public bathroom, lit by a single buzzing fluorescent light. A sink juts out of the wall, the hot water knob missing. A dusty sign above it reads, &quot;Employees must wash hands before returning to work.&quot; A toilet sits in the corner. There&apos;s no toilet paper.
+
+I can see a hole in the ceiling (in which is a duffel bag (closed)) and a bathroom door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x3ed5f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3ed5f0">
+    <command xml:space="preserve">take bag</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b96e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b96e0">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">(first getting off the toilet)
+I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9750" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9750">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the bathroom door)
+
+Vacant Office Space
+The huge empty office space&apos;s beige drywall and concrete floor are dimly lit by a few emergency lights. Without desks, chairs, or cubicle walls, the place almost looks like a warehouse, albeit one with a decent view of the city. The previous tenant was some kind of telecom, I think, judging by some old hardware and paperwork left behind from their move. I like to use this space since it&apos;s not likely to get leased in a hurry, what with the recession.
+
+I can see a small cluster of cubicles to the west.
+
+From here I can take the elevator down to the lobby.
+
+I can see a bathroom door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9840" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9840">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Office Lobby
+The lobby is rather spartan, but not as neglected as the space upstairs. An empty desk for a receptionist sits here, as does a building directory.
+
+I can see through the glass doors in front to 58th Street outside.
+
+I can see a pencil here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9890" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9890">
+    <command xml:space="preserve">take pencil</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b98e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b98e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9950" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9950">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You are already standing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b99c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b99c0">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9af0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9af0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b97e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b97e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9b60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9b60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9bd0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9c40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9c40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9cb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Olympia Coffee
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9d20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9d20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9d90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9d90">
+    <command xml:space="preserve">buy coffee</command>
+    <result xml:space="preserve">I&apos;ll have to take the money out to pay for anything.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9a30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9a30">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a pencil
+  a duffel bag (closed)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9a80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9a80">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">I open the duffel bag, revealing a stack of cash.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9f80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9f80">
+    <command xml:space="preserve">take cash</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9ff0">
+    <command xml:space="preserve">buy coffee</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba060" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba060">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba0d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba0d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba140" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba140">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba1b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba220" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba220">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Conference Room
+I can see a ticket here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba290" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba290">
+    <command xml:space="preserve">take ticket</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba300" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba300">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba370" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba370">
+    <command xml:space="preserve">give ticket to concierge</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba3e0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a gym bag (closed)
+  a dozen coffees
+  a stack of cash
+  a pencil
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9e00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9e00">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">Which do you mean, the gym bag or the duffel bag?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9e70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9e70">
+    <command xml:space="preserve">open gym bag</command>
+    <result xml:space="preserve">I open the gym bag, revealing workout clothes and a pass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6b9ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6b9ee0">
+    <command xml:space="preserve">take pass</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba690" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba690">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba700" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba700">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba770" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba770">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba7e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Columbus Circle
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba850" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba850">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba8c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+W 59th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba930" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba930">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba9a0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a pass
+  a gym bag (open)
+    workout clothes
+  a dozen coffees
+  a stack of cash
+  a pencil
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6baa10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6baa10">
+    <command xml:space="preserve">give pass to manager</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6baa80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6baa80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Locker Room
+I can see a lockers (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6baaf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6baaf0">
+    <command xml:space="preserve">open lockers</command>
+    <result xml:space="preserve">I open the lockers, revealing an envelope.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bab60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bab60">
+    <command xml:space="preserve">take envelope</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6babd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6babd0">
+    <command xml:space="preserve">open envelope</command>
+    <result xml:space="preserve">I open the envelope, revealing a hotel key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bac40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bac40">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bacb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bacb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bad20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bad20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bad90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bad90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Locker Room
+I can see a lockers (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba450" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba450">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba4c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba530" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba530">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba5a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba5a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6ba610" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6ba610">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bae00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bae00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bae70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bae70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Columbus Circle
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6baee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6baee0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Outside the Macau Grand Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6baf50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6baf50">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bafc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bafc0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Macau Grand Hotel Lobby
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bb030" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bb030">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Macau Grand Hotel Lobby
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bb0a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bb0a0">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+Hallway
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bb110" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bb110">
+    <command xml:space="preserve">e</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="66">YES</temporary>
+  </item>
+  <item nodeId="node-0xa6bb180">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Public Bathroom (on the toilet)
 I&apos;m in a public bathroom, lit by a single buzzing fluorescent light. A sink juts out of the wall, the hot water knob missing. A dusty sign above it reads, &quot;Employees must wash hands before returning to work.&quot; A toilet sits in the corner. There&apos;s no toilet paper.
@@ -52,10 +886,10 @@ I can see a bathroom door and a loose ceiling tile here.
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2b1e70" />
+      <child nodeId="node-0xa6bb1f0" />
     </children>
   </item>
-  <item nodeId="node-0x2b1e70">
+  <item nodeId="node-0xa6bb1f0">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">loose ceiling tile: Taken.
 
@@ -64,10 +898,10 @@ I can see a bathroom door and a loose ceiling tile here.
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2b1c50" />
+      <child nodeId="node-0xa6bb260" />
     </children>
   </item>
-  <item nodeId="node-0x2b1c50">
+  <item nodeId="node-0xa6bb260">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Public Bathroom (on the toilet)
 I&apos;m in a public bathroom, lit by a single buzzing fluorescent light. A sink juts out of the wall, the hot water knob missing. A dusty sign above it reads, &quot;Employees must wash hands before returning to work.&quot; A toilet sits in the corner. There&apos;s no toilet paper.
@@ -79,10 +913,10 @@ I can see a hole in the ceiling (in which is a duffel bag (closed)) and a bathro
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2b1cc0" />
+      <child nodeId="node-0xa6bb2d0" />
     </children>
   </item>
-  <item nodeId="node-0x2b1cc0">
+  <item nodeId="node-0xa6bb2d0">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">duffel bag: Taken.
 
@@ -91,10 +925,10 @@ I can see a hole in the ceiling (in which is a duffel bag (closed)) and a bathro
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0330" />
+      <child nodeId="node-0xa6bb340" />
     </children>
   </item>
-  <item nodeId="node-0x2f0330">
+  <item nodeId="node-0xa6bb340">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">I am carrying:
   a duffel bag (closed)
@@ -105,10 +939,10 @@ I can see a hole in the ceiling (in which is a duffel bag (closed)) and a bathro
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0420" />
+      <child nodeId="node-0xa6bb3b0" />
     </children>
   </item>
-  <item nodeId="node-0x2f0420">
+  <item nodeId="node-0xa6bb3b0">
     <command xml:space="preserve">open duffel bag</command>
     <result xml:space="preserve">I open the duffel bag, revealing a stack of cash.
 
@@ -117,10 +951,10 @@ I can see a hole in the ceiling (in which is a duffel bag (closed)) and a bathro
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0470" />
+      <child nodeId="node-0xa6bb420" />
     </children>
   </item>
-  <item nodeId="node-0x2f0470">
+  <item nodeId="node-0xa6bb420">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Public Bathroom (on the toilet)
 I&apos;m in a public bathroom, lit by a single buzzing fluorescent light. A sink juts out of the wall, the hot water knob missing. A dusty sign above it reads, &quot;Employees must wash hands before returning to work.&quot; A toilet sits in the corner. There&apos;s no toilet paper.
@@ -132,10 +966,10 @@ I can see a hole in the ceiling (empty) and a bathroom door here.
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f04c0" />
+      <child nodeId="node-0xa6bb490" />
     </children>
   </item>
-  <item nodeId="node-0x2f04c0">
+  <item nodeId="node-0xa6bb490">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Public Bathroom (on the toilet)
 I&apos;m in a public bathroom, lit by a single buzzing fluorescent light. A sink juts out of the wall, the hot water knob missing. A dusty sign above it reads, &quot;Employees must wash hands before returning to work.&quot; A toilet sits in the corner. There&apos;s no toilet paper.
@@ -147,10 +981,10 @@ I can see a hole in the ceiling (empty) and a bathroom door here.
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0530" />
+      <child nodeId="node-0xa6bb500" />
     </children>
   </item>
-  <item nodeId="node-0x2f0530">
+  <item nodeId="node-0xa6bb500">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">I am carrying:
   a duffel bag (open)
@@ -162,10 +996,10 @@ I can see a hole in the ceiling (empty) and a bathroom door here.
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f05a0" />
+      <child nodeId="node-0xa6bb570" />
     </children>
   </item>
-  <item nodeId="node-0x2f05a0">
+  <item nodeId="node-0xa6bb570">
     <command xml:space="preserve">x stack</command>
     <result xml:space="preserve">A banded stack of twenties, totaling $2,000, weighing just under 0.23 pounds. It&apos;s all I have left in loose cash, the rest is already spent, so to speak.
 
@@ -174,10 +1008,10 @@ I can see a hole in the ceiling (empty) and a bathroom door here.
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f06d0" />
+      <child nodeId="node-0xa6bb5e0" />
     </children>
   </item>
-  <item nodeId="node-0x2f06d0">
+  <item nodeId="node-0xa6bb5e0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Public Bathroom (on the toilet)
 I&apos;m in a public bathroom, lit by a single buzzing fluorescent light. A sink juts out of the wall, the hot water knob missing. A dusty sign above it reads, &quot;Employees must wash hands before returning to work.&quot; A toilet sits in the corner. There&apos;s no toilet paper.
@@ -189,10 +1023,10 @@ I can see a hole in the ceiling (empty) and a bathroom door here.
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f03c0" />
+      <child nodeId="node-0xa6bb650" />
     </children>
   </item>
-  <item nodeId="node-0x2f03c0">
+  <item nodeId="node-0xa6bb650">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">(first getting off the toilet)
 (first opening the bathroom door)
@@ -211,10 +1045,10 @@ I can see a bathroom door here.
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0740" />
+      <child nodeId="node-0xa6bb6c0" />
     </children>
   </item>
-  <item nodeId="node-0x2f0740">
+  <item nodeId="node-0xa6bb6c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Empty Cubicles
@@ -227,10 +1061,10 @@ I can see a paper clip and a filing cabinet (closed) here.
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f07b0" />
+      <child nodeId="node-0xa6bb730" />
     </children>
   </item>
-  <item nodeId="node-0x2f07b0">
+  <item nodeId="node-0xa6bb730">
     <command xml:space="preserve">open filing cabinet</command>
     <result xml:space="preserve">It&apos;s locked. There&apos;s no hope of finding the key since the original owner is long gone. I&apos;ll need to find some other way to get it open.
 
@@ -239,10 +1073,10 @@ I can see a paper clip and a filing cabinet (closed) here.
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0820" />
+      <child nodeId="node-0xa6bb7a0" />
     </children>
   </item>
-  <item nodeId="node-0x2f0820">
+  <item nodeId="node-0xa6bb7a0">
     <command xml:space="preserve">take</command>
     <result xml:space="preserve">What do you want to take?
 
@@ -251,10 +1085,10 @@ I can see a paper clip and a filing cabinet (closed) here.
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0890" />
+      <child nodeId="node-0xa6bb810" />
     </children>
   </item>
-  <item nodeId="node-0x2f0890">
+  <item nodeId="node-0xa6bb810">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">paper clip: Taken.
 stack of cash: Taken.
@@ -264,10 +1098,10 @@ stack of cash: Taken.
     <changed>YES</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0900" />
+      <child nodeId="node-0xa6bb880" />
     </children>
   </item>
-  <item nodeId="node-0x2f0900">
+  <item nodeId="node-0xa6bb880">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Empty Cubicles
 The west side of the floor is taken up by the half-broken remnants of a cubicle farm. The empty maze of gray panels resembles a broken hive, long since abandoned by its worker drones. Whatever company moved out of here appears to have been in a hurry; assorted desks and supplies still remain in some of the cubicles, and papers litter the floor.
@@ -279,10 +1113,10 @@ I can see a filing cabinet (closed) here.
     <changed>YES</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0970" />
+      <child nodeId="node-0xa6bb8f0" />
     </children>
   </item>
-  <item nodeId="node-0x2f0970">
+  <item nodeId="node-0xa6bb8f0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">I am carrying:
   a stack of cash
@@ -295,10 +1129,10 @@ I can see a filing cabinet (closed) here.
     <changed>YES</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0610" />
+      <child nodeId="node-0xa6bb960" />
     </children>
   </item>
-  <item nodeId="node-0x2f0610">
+  <item nodeId="node-0xa6bb960">
     <command xml:space="preserve">i stack</command>
     <result xml:space="preserve">I only understood you as far as wanting to take inventory.
 
@@ -307,10 +1141,10 @@ I can see a filing cabinet (closed) here.
     <changed>YES</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0660" />
+      <child nodeId="node-0xa6bb9d0" />
     </children>
   </item>
-  <item nodeId="node-0x2f0660">
+  <item nodeId="node-0xa6bb9d0">
     <command xml:space="preserve">x stack</command>
     <result xml:space="preserve">A banded stack of twenties, totaling $2,000, weighing just under 0.23 pounds. It&apos;s all I have left in loose cash, the rest is already spent, so to speak.
 
@@ -319,10 +1153,10 @@ I can see a filing cabinet (closed) here.
     <changed>YES</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0b60" />
+      <child nodeId="node-0xa6bba40" />
     </children>
   </item>
-  <item nodeId="node-0x2f0b60">
+  <item nodeId="node-0xa6bba40">
     <command xml:space="preserve">x paper clip</command>
     <result xml:space="preserve">I see nothing special about the paper clip.
 
@@ -331,44 +1165,2441 @@ I can see a filing cabinet (closed) here.
     <changed>YES</changed>
     <temporary score="146">YES</temporary>
   </item>
-  <item nodeId="node-0x2f0bd0">
+  <item nodeId="node-0xa6bbab0">
     <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">loose ceiling tile: Taken.
+    <result xml:space="preserve">You&apos;ll have to be more specific.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="659">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0c40" />
-      <child nodeId="node-0x19dcc0" />
+      <child nodeId="node-0xa6c2030" />
+      <child nodeId="node-0xa6bde90" />
+      <child nodeId="node-0xa6bbb20" />
     </children>
   </item>
-  <item nodeId="node-0x19dcc0">
+  <item nodeId="node-0xa6bbb20">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Public Bathroom (on the toilet)
+I&apos;m in a public bathroom, lit by a single buzzing fluorescent light. A sink juts out of the wall, the hot water knob missing. A dusty sign above it reads, &quot;Employees must wash hands before returning to work.&quot; A toilet sits in the corner. There&apos;s no toilet paper.
+
+I can see a bathroom door and a loose ceiling tile here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bbb90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bbb90">
+    <command xml:space="preserve">take tile</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bbc00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bbc00">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Public Bathroom (on the toilet)
+I&apos;m in a public bathroom, lit by a single buzzing fluorescent light. A sink juts out of the wall, the hot water knob missing. A dusty sign above it reads, &quot;Employees must wash hands before returning to work.&quot; A toilet sits in the corner. There&apos;s no toilet paper.
+
+I can see a hole in the ceiling (in which is a duffel bag (closed)) and a bathroom door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bbc70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bbc70">
+    <command xml:space="preserve">take bag</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bbce0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bbce0">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">I open the duffel bag, revealing a stack of cash.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bbd50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bbd50">
+    <command xml:space="preserve">take cash</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bbdc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bbdc0">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">(first getting off the toilet)
+I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bbe30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bbe30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the bathroom door)
+
+Vacant Office Space
+The huge empty office space&apos;s beige drywall and concrete floor are dimly lit by a few emergency lights. Without desks, chairs, or cubicle walls, the place almost looks like a warehouse, albeit one with a decent view of the city. The previous tenant was some kind of telecom, I think, judging by some old hardware and paperwork left behind from their move. I like to use this space since it&apos;s not likely to get leased in a hurry, what with the recession.
+
+I can see a small cluster of cubicles to the west.
+
+From here I can take the elevator down to the lobby.
+
+I can see a bathroom door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bbea0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bbea0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Office Lobby
+The lobby is rather spartan, but not as neglected as the space upstairs. An empty desk for a receptionist sits here, as does a building directory.
+
+I can see through the glass doors in front to 58th Street outside.
+
+I can see a pencil here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bbf10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bbf10">
+    <command xml:space="preserve">take pencil</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bbf80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bbf80">
+    <command xml:space="preserve">go out</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bbff0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bbff0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc060" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc060">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc0d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc0d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc140" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc140">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc1b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc220" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc220">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc290" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc290">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Olympia Coffee
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc300" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc300">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc370" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc370">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Olympia Coffee
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc3e0">
+    <command xml:space="preserve">buy coffee</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc450" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc450">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a dozen coffees
+  a pencil
+  a stack of cash
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc4c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc530" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc530">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc5a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc5a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc610" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc610">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc680" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc680">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Conference Room
+I can see a ticket here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc6f0">
+    <command xml:space="preserve">take ticket</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc760" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc760">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc7d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc840" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc840">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc8b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc8b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc920" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc920">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bc990" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bc990">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bca00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bca00">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bca70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bca70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bcae0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bcae0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bcb50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bcb50">
+    <command xml:space="preserve">give pass to manager</command>
+    <result xml:space="preserve">I can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bcbc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bcbc0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bcc30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bcc30">
+    <command xml:space="preserve">give pass to manager</command>
+    <result xml:space="preserve">I can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bcca0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bcca0">
+    <command xml:space="preserve">give pass to the manager</command>
+    <result xml:space="preserve">I can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bcd10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bcd10">
+    <command xml:space="preserve">show pass to manager</command>
+    <result xml:space="preserve">I can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bcd80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bcd80">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bcdf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bcdf0">
+    <command xml:space="preserve">give pass</command>
+    <result xml:space="preserve">I can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bce60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bce60">
+    <command xml:space="preserve">show pass</command>
+    <result xml:space="preserve">I can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bced0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bced0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a ticket
+  a dozen coffees
+  a pencil
+  a stack of cash
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bcf40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bcf40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bcfb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bcfb0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd020" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd020">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd090" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd090">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd100" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd100">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a ticket
+  a dozen coffees
+  a pencil
+  a stack of cash
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd170" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd170">
+    <command xml:space="preserve">show ticket to concierg</command>
+    <result xml:space="preserve">I can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd1e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd1e0">
+    <command xml:space="preserve">show ticket to concierge</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd250" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd250">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a gym bag (closed)
+  a dozen coffees
+  a pencil
+  a stack of cash
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd2c0">
+    <command xml:space="preserve">open gym bag</command>
+    <result xml:space="preserve">I open the gym bag, revealing workout clothes and a pass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd330" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd330">
+    <command xml:space="preserve">take pass</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd3a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd3a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd410" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd410">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd480" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd480">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd4f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd4f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Olympia Coffee
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd560" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd560">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd5d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd640" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd640">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd6b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd720" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd720">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd790" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd790">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd800" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd800">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd870" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd870">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd8e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd950" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd950">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bd9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bd9c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bda30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bda30">
+    <command xml:space="preserve">give pass to manager</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bdaa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bdaa0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a gym bag (open)
+    workout clothes
+  a dozen coffees
+  a pencil
+  a stack of cash
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bdb10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bdb10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Locker Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bdb80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bdb80">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Locker Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bdbf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bdbf0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bdc60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bdc60">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Gym
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bdcd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bdcd0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bdd40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bdd40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Locker Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bddb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bddb0">
+    <command xml:space="preserve">open locker</command>
+    <result xml:space="preserve">I can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bde20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bde20">
+    <command xml:space="preserve">open lockers</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+  </item>
+  <item nodeId="node-0xa6bde90">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">duffel bag: Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="659">YES</temporary>
+    <temporary score="138">YES</temporary>
     <children>
-      <child nodeId="node-0x3aac30" />
+      <child nodeId="node-0xa6bf6a0" />
+      <child nodeId="node-0xa6bdf00" />
     </children>
   </item>
-  <item nodeId="node-0x3aac30">
+  <item nodeId="node-0xa6bdf00">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">I get off the toilet.
+
+Public Bathroom
+I&apos;m in a public bathroom, lit by a single buzzing fluorescent light. A sink juts out of the wall, the hot water knob missing. A dusty sign above it reads, &quot;Employees must wash hands before returning to work.&quot; A toilet sits in the corner. There&apos;s no toilet paper.
+
+I can see a hole in the ceiling (empty) and a bathroom door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bdf70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bdf70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the bathroom door)
+
+Vacant Office Space
+The huge empty office space&apos;s beige drywall and concrete floor are dimly lit by a few emergency lights. Without desks, chairs, or cubicle walls, the place almost looks like a warehouse, albeit one with a decent view of the city. The previous tenant was some kind of telecom, I think, judging by some old hardware and paperwork left behind from their move. I like to use this space since it&apos;s not likely to get leased in a hurry, what with the recession.
+
+I can see a small cluster of cubicles to the west.
+
+From here I can take the elevator down to the lobby.
+
+I can see a bathroom door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bdfe0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bdfe0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Empty Cubicles
+The west side of the floor is taken up by the half-broken remnants of a cubicle farm. The empty maze of gray panels resembles a broken hive, long since abandoned by its worker drones. Whatever company moved out of here appears to have been in a hurry; assorted desks and supplies still remain in some of the cubicles, and papers litter the floor.
+
+I can see a paper clip and a filing cabinet (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be050" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be050">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">paper clip: Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be0c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Vacant Office Space
+The huge empty office space&apos;s beige drywall and concrete floor are dimly lit by a few emergency lights. Without desks, chairs, or cubicle walls, the place almost looks like a warehouse, albeit one with a decent view of the city. The previous tenant was some kind of telecom, I think, judging by some old hardware and paperwork left behind from their move. I like to use this space since it&apos;s not likely to get leased in a hurry, what with the recession.
+
+I can see a small cluster of cubicles to the west.
+
+From here I can take the elevator down to the lobby.
+
+I can see a bathroom door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be130" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be130">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+Office Lobby
+The lobby is rather spartan, but not as neglected as the space upstairs. An empty desk for a receptionist sits here, as does a building directory.
+
+I can see through the glass doors in front to 58th Street outside.
+
+I can see a pencil here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be1a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be1a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be210" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be210">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be280" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be280">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Office Lobby
+The lobby is rather spartan, but not as neglected as the space upstairs. An empty desk for a receptionist sits here, as does a building directory.
+
+I can see through the glass doors in front to 58th Street outside.
+
+I can see a pencil here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be2f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be2f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be360" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be360">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Office Lobby
+The lobby is rather spartan, but not as neglected as the space upstairs. An empty desk for a receptionist sits here, as does a building directory.
+
+I can see through the glass doors in front to 58th Street outside.
+
+I can see a pencil here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be3d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be3d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be440" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be440">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be4b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be4b0">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be520" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be520">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be590" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be590">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be600" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be600">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be670" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be670">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be6e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be6e0">
+    <command xml:space="preserve">look concierge</command>
+    <result xml:space="preserve">I see nothing special about the concierge.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be750" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be750">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be7c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be7c0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be830" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be830">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be8a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be8a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be910" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be910">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be980" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be980">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6be9f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6be9f0">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You are already standing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bea60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bea60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bead0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bead0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6beb40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6beb40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bebb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bebb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Olympia Coffee
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bec20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bec20">
+    <command xml:space="preserve">buy coffee</command>
+    <result xml:space="preserve">I&apos;ll have to take the money out to pay for anything.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bec90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bec90">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a paper clip
+  a duffel bag (closed)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bed00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bed00">
     <command xml:space="preserve">open bag</command>
     <result xml:space="preserve">I open the duffel bag, revealing a stack of cash.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="659">YES</temporary>
+    <temporary score="125">YES</temporary>
     <children>
-      <child nodeId="node-0x307f9f0" />
+      <child nodeId="node-0xa6bed70" />
     </children>
   </item>
-  <item nodeId="node-0x307f9f0">
+  <item nodeId="node-0xa6bed70">
+    <command xml:space="preserve">take money</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bede0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bede0">
+    <command xml:space="preserve">take cash</command>
+    <result xml:space="preserve">I already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bee50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bee50">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a stack of cash
+  a paper clip
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6beec0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6beec0">
+    <command xml:space="preserve">buy coffee</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bef30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bef30">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a dozen coffees
+  a stack of cash
+  a paper clip
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6befa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6befa0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf010" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf010">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf080" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf080">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf0f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf0f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf160" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf160">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf1d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf240" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf240">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Conference Room
+I can see a ticket here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf2b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf2b0">
+    <command xml:space="preserve">take ticket</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf320" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf320">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf390" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf390">
+    <command xml:space="preserve">give ticket to concierge</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf400" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf400">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a gym bag (closed)
+  a dozen coffees
+  a stack of cash
+  a paper clip
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf470" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf470">
+    <command xml:space="preserve">open gym bag</command>
+    <result xml:space="preserve">I open the gym bag, revealing workout clothes and a pass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf4e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf4e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf550" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf550">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf5c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf5c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf630" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf630">
+    <command xml:space="preserve">w</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="124">YES</temporary>
+  </item>
+  <item nodeId="node-0xa6bf6a0">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">I open the duffel bag, revealing a stack of cash.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0ac0" />
+      <child nodeId="node-0xa6bf710" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf710">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first getting off the toilet)
+I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf780" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf780">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the bathroom door)
+
+Vacant Office Space
+The huge empty office space&apos;s beige drywall and concrete floor are dimly lit by a few emergency lights. Without desks, chairs, or cubicle walls, the place almost looks like a warehouse, albeit one with a decent view of the city. The previous tenant was some kind of telecom, I think, judging by some old hardware and paperwork left behind from their move. I like to use this space since it&apos;s not likely to get leased in a hurry, what with the recession.
+
+I can see a small cluster of cubicles to the west.
+
+From here I can take the elevator down to the lobby.
+
+I can see a bathroom door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf7f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf7f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Empty Cubicles
+The west side of the floor is taken up by the half-broken remnants of a cubicle farm. The empty maze of gray panels resembles a broken hive, long since abandoned by its worker drones. Whatever company moved out of here appears to have been in a hurry; assorted desks and supplies still remain in some of the cubicles, and papers litter the floor.
+
+I can see a paper clip and a filing cabinet (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf860" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf860">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">paper clip: Taken.
+stack of cash: Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf8d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf8d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Vacant Office Space
+The huge empty office space&apos;s beige drywall and concrete floor are dimly lit by a few emergency lights. Without desks, chairs, or cubicle walls, the place almost looks like a warehouse, albeit one with a decent view of the city. The previous tenant was some kind of telecom, I think, judging by some old hardware and paperwork left behind from their move. I like to use this space since it&apos;s not likely to get leased in a hurry, what with the recession.
+
+I can see a small cluster of cubicles to the west.
+
+From here I can take the elevator down to the lobby.
+
+I can see a bathroom door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf940" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf940">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Office Lobby
+The lobby is rather spartan, but not as neglected as the space upstairs. An empty desk for a receptionist sits here, as does a building directory.
+
+I can see through the glass doors in front to 58th Street outside.
+
+I can see a pencil here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bf9b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bf9b0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">pencil: Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bfa20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bfa20">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You are already standing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bfa90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bfa90">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bfb00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bfb00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bfb70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bfb70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bfbe0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bfbe0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bfc50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bfc50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bfcc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bfcc0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bfd30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bfd30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bfda0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bfda0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Olympia Coffee
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bfe10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bfe10">
+    <command xml:space="preserve">buy coffee</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bfe80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bfe80">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a dozen coffees
+  a pencil
+  a stack of cash
+  a paper clip
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bfef0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bfef0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bff60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bff60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6bffd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6bffd0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0040" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0040">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c00b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c00b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0120" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0120">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0190" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0190">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Conference Room
+I can see a ticket here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0200" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0200">
+    <command xml:space="preserve">take ticket</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0270" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0270">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a ticket
+  a dozen coffees
+  a pencil
+  a stack of cash
+  a paper clip
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c02e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c02e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0350" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0350">
+    <command xml:space="preserve">give ticket to concierge</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c03c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c03c0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a gym bag (closed)
+  a dozen coffees
+  a pencil
+  a stack of cash
+  a paper clip
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0430" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0430">
+    <command xml:space="preserve">open gym bag</command>
+    <result xml:space="preserve">I open the gym bag, revealing workout clothes and a pass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c04a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c04a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0510" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0510">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0580" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0580">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c05f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c05f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0660" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0660">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c06d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c06d0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a gym bag (open)
+    workout clothes
+    a pass
+  a dozen coffees
+  a pencil
+  a stack of cash
+  a paper clip
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0740" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0740">
+    <command xml:space="preserve">take pass</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c07b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c07b0">
+    <command xml:space="preserve">give pass to manager</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0820" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0820">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a gym bag (open)
+    workout clothes
+  a dozen coffees
+  a pencil
+  a stack of cash
+  a paper clip
+  a duffel bag (open but empty)
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0890" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0890">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0900" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0900">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Gym
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0970" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0970">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c09e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c09e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Locker Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c0a50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c0a50">
+    <command xml:space="preserve">w</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="137">YES</temporary>
+  </item>
+  <item nodeId="node-0xa6c0ac0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first getting off the toilet)
 I can&apos;t go that way.
@@ -378,10 +3609,10 @@ I can&apos;t go that way.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0xe01a940" />
+      <child nodeId="node-0xa6c0b30" />
     </children>
   </item>
-  <item nodeId="node-0xe01a940">
+  <item nodeId="node-0xa6c0b30">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">(first opening the bathroom door)
 
@@ -399,10 +3630,10 @@ I can see a bathroom door here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x3082130" />
+      <child nodeId="node-0xa6c0ba0" />
     </children>
   </item>
-  <item nodeId="node-0x3082130">
+  <item nodeId="node-0xa6c0ba0">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Office Lobby
@@ -417,10 +3648,10 @@ I can see a pencil here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x3082800" />
+      <child nodeId="node-0xa6c0c10" />
     </children>
   </item>
-  <item nodeId="node-0x3082800">
+  <item nodeId="node-0xa6c0c10">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">I can&apos;t go that way.
 
@@ -429,10 +3660,10 @@ I can see a pencil here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x3af560" />
+      <child nodeId="node-0xa6c0c80" />
     </children>
   </item>
-  <item nodeId="node-0x3af560">
+  <item nodeId="node-0xa6c0c80">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">I can&apos;t go that way.
 
@@ -441,20 +3672,20 @@ I can see a pencil here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x3a4960" />
+      <child nodeId="node-0xa6c0cf0" />
     </children>
   </item>
-  <item nodeId="node-0x3a4960">
+  <item nodeId="node-0xa6c0cf0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x1042e6e0" />
+      <child nodeId="node-0xa6c0d60" />
     </children>
   </item>
-  <item nodeId="node-0x1042e6e0">
+  <item nodeId="node-0xa6c0d60">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">I can&apos;t go that way.
 
@@ -463,10 +3694,10 @@ I can see a pencil here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x1043e730" />
+      <child nodeId="node-0xa6c0dd0" />
     </children>
   </item>
-  <item nodeId="node-0x1043e730">
+  <item nodeId="node-0xa6c0dd0">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">You are already standing.
 
@@ -475,10 +3706,10 @@ I can see a pencil here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x3a5a50" />
+      <child nodeId="node-0xa6c0e40" />
     </children>
   </item>
-  <item nodeId="node-0x3a5a50">
+  <item nodeId="node-0xa6c0e40">
     <command xml:space="preserve">go outside</command>
     <result xml:space="preserve">
 W 58th St. and Avenue of the Americas
@@ -488,10 +3719,10 @@ W 58th St. and Avenue of the Americas
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x3b4470" />
+      <child nodeId="node-0xa6c0eb0" />
     </children>
   </item>
-  <item nodeId="node-0x3b4470">
+  <item nodeId="node-0xa6c0eb0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Olympia Coffee
@@ -501,10 +3732,10 @@ Olympia Coffee
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x3b46f0" />
+      <child nodeId="node-0xa6c0f20" />
     </children>
   </item>
-  <item nodeId="node-0x3b46f0">
+  <item nodeId="node-0xa6c0f20">
     <command xml:space="preserve">buy coffee</command>
     <result xml:space="preserve">I&apos;ll have to take the money out to pay for anything.
 
@@ -513,10 +3744,10 @@ Olympia Coffee
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0xe03d6e0" />
+      <child nodeId="node-0xa6c0f90" />
     </children>
   </item>
-  <item nodeId="node-0xe03d6e0">
+  <item nodeId="node-0xa6c0f90">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">I am carrying:
   a duffel bag (open)
@@ -528,10 +3759,10 @@ Olympia Coffee
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0xe0ef9b0" />
+      <child nodeId="node-0xa6c1000" />
     </children>
   </item>
-  <item nodeId="node-0xe0ef9b0">
+  <item nodeId="node-0xa6c1000">
     <command xml:space="preserve">drop tile</command>
     <result xml:space="preserve">Dropped.
 
@@ -540,10 +3771,10 @@ Olympia Coffee
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x329d0f0" />
+      <child nodeId="node-0xa6c1070" />
     </children>
   </item>
-  <item nodeId="node-0x329d0f0">
+  <item nodeId="node-0xa6c1070">
     <command xml:space="preserve">take out cash</command>
     <result xml:space="preserve">I only understood you as far as wanting to take outside.
 
@@ -552,10 +3783,10 @@ Olympia Coffee
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x10432810" />
+      <child nodeId="node-0xa6c10e0" />
     </children>
   </item>
-  <item nodeId="node-0x10432810">
+  <item nodeId="node-0xa6c10e0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">I am carrying:
   a duffel bag (open)
@@ -566,10 +3797,10 @@ Olympia Coffee
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x104335a0" />
+      <child nodeId="node-0xa6c1150" />
     </children>
   </item>
-  <item nodeId="node-0x104335a0">
+  <item nodeId="node-0xa6c1150">
     <command xml:space="preserve">take cash</command>
     <result xml:space="preserve">Taken.
 
@@ -578,20 +3809,20 @@ Olympia Coffee
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x3f3150" />
+      <child nodeId="node-0xa6c11c0" />
     </children>
   </item>
-  <item nodeId="node-0x3f3150">
+  <item nodeId="node-0xa6c11c0">
     <command xml:space="preserve">buy coffee</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x3f6600" />
+      <child nodeId="node-0xa6c1230" />
     </children>
   </item>
-  <item nodeId="node-0x3f6600">
+  <item nodeId="node-0xa6c1230">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">I am carrying:
   a dozen coffees
@@ -603,10 +3834,10 @@ Olympia Coffee
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0xe0c3370" />
+      <child nodeId="node-0xa6c12a0" />
     </children>
   </item>
-  <item nodeId="node-0xe0c3370">
+  <item nodeId="node-0xa6c12a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 W 58th St. and Avenue of the Americas
@@ -616,10 +3847,10 @@ W 58th St. and Avenue of the Americas
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x3283020" />
+      <child nodeId="node-0xa6c1310" />
     </children>
   </item>
-  <item nodeId="node-0x3283020">
+  <item nodeId="node-0xa6c1310">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 W 59th St. and Avenue of the Americas
@@ -629,10 +3860,10 @@ W 59th St. and Avenue of the Americas
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x1044b760" />
+      <child nodeId="node-0xa6c1380" />
     </children>
   </item>
-  <item nodeId="node-0x1044b760">
+  <item nodeId="node-0xa6c1380">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Outside the Everett-Fitzgerald Hotel
@@ -642,10 +3873,10 @@ Outside the Everett-Fitzgerald Hotel
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x104c7ff0" />
+      <child nodeId="node-0xa6c13f0" />
     </children>
   </item>
-  <item nodeId="node-0x104c7ff0">
+  <item nodeId="node-0xa6c13f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Everett-Fitzgerald Hotel Lobby
@@ -656,10 +3887,10 @@ I can see a concierge here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x14753b70" />
+      <child nodeId="node-0xa6c1460" />
     </children>
   </item>
-  <item nodeId="node-0x14753b70">
+  <item nodeId="node-0xa6c1460">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Conference Room
@@ -670,10 +3901,10 @@ I can see a ticket here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x32af360" />
+      <child nodeId="node-0xa6c14d0" />
     </children>
   </item>
-  <item nodeId="node-0x32af360">
+  <item nodeId="node-0xa6c14d0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">I am carrying:
   a dozen coffees
@@ -685,10 +3916,10 @@ I can see a ticket here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x325aa20" />
+      <child nodeId="node-0xa6c1540" />
     </children>
   </item>
-  <item nodeId="node-0x325aa20">
+  <item nodeId="node-0xa6c1540">
     <command xml:space="preserve">drop coffee</command>
     <result xml:space="preserve">I can&apos;t see any such thing.
 
@@ -697,10 +3928,10 @@ I can see a ticket here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x32caa20" />
+      <child nodeId="node-0xa6c15b0" />
     </children>
   </item>
-  <item nodeId="node-0x32caa20">
+  <item nodeId="node-0xa6c15b0">
     <command xml:space="preserve">drop coffees</command>
     <result xml:space="preserve">Dropped.
 
@@ -709,10 +3940,10 @@ I can see a ticket here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x1047ecf0" />
+      <child nodeId="node-0xa6c1620" />
     </children>
   </item>
-  <item nodeId="node-0x1047ecf0">
+  <item nodeId="node-0xa6c1620">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Everett-Fitzgerald Hotel Lobby
@@ -723,10 +3954,10 @@ I can see a concierge here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x1043caf0" />
+      <child nodeId="node-0xa6c1690" />
     </children>
   </item>
-  <item nodeId="node-0x1043caf0">
+  <item nodeId="node-0xa6c1690">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Conference Room
@@ -737,10 +3968,10 @@ I can see a dozen coffees and a ticket here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x104a25e0" />
+      <child nodeId="node-0xa6c1700" />
     </children>
   </item>
-  <item nodeId="node-0x104a25e0">
+  <item nodeId="node-0xa6c1700">
     <command xml:space="preserve">take coffees</command>
     <result xml:space="preserve">Taken.
 
@@ -749,10 +3980,10 @@ I can see a dozen coffees and a ticket here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x368000" />
+      <child nodeId="node-0xa6c1770" />
     </children>
   </item>
-  <item nodeId="node-0x368000">
+  <item nodeId="node-0xa6c1770">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Everett-Fitzgerald Hotel Lobby
@@ -763,10 +3994,10 @@ I can see a concierge here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x32b0eb0" />
+      <child nodeId="node-0xa6c17e0" />
     </children>
   </item>
-  <item nodeId="node-0x32b0eb0">
+  <item nodeId="node-0xa6c17e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">I can&apos;t go that way.
 
@@ -775,10 +4006,10 @@ I can see a concierge here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x32a34f0" />
+      <child nodeId="node-0xa6c1850" />
     </children>
   </item>
-  <item nodeId="node-0x32a34f0">
+  <item nodeId="node-0xa6c1850">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Outside the Everett-Fitzgerald Hotel
@@ -788,10 +4019,10 @@ Outside the Everett-Fitzgerald Hotel
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x29aba0" />
+      <child nodeId="node-0xa6c18c0" />
     </children>
   </item>
-  <item nodeId="node-0x29aba0">
+  <item nodeId="node-0xa6c18c0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Everett-Fitzgerald Hotel Lobby
@@ -802,10 +4033,10 @@ I can see a concierge here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x3d2c80" />
+      <child nodeId="node-0xa6c1930" />
     </children>
   </item>
-  <item nodeId="node-0x3d2c80">
+  <item nodeId="node-0xa6c1930">
     <command xml:space="preserve">drop coffees</command>
     <result xml:space="preserve">Dropped.
 
@@ -814,20 +4045,20 @@ I can see a concierge here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x10450160" />
+      <child nodeId="node-0xa6c19a0" />
     </children>
   </item>
-  <item nodeId="node-0x10450160">
+  <item nodeId="node-0xa6c19a0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x2d97f0" />
+      <child nodeId="node-0xa6c1a10" />
     </children>
   </item>
-  <item nodeId="node-0x2d97f0">
+  <item nodeId="node-0xa6c1a10">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Everett-Fitzgerald Hotel Lobby
 I can see a dozen coffees and a concierge here.
@@ -837,20 +4068,20 @@ I can see a dozen coffees and a concierge here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x3272570" />
+      <child nodeId="node-0xa6c1a80" />
     </children>
   </item>
-  <item nodeId="node-0x3272570">
+  <item nodeId="node-0xa6c1a80">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x2ba1a0" />
+      <child nodeId="node-0xa6c1af0" />
     </children>
   </item>
-  <item nodeId="node-0x2ba1a0">
+  <item nodeId="node-0xa6c1af0">
     <command xml:space="preserve">get coffees</command>
     <result xml:space="preserve">Taken.
 
@@ -859,10 +4090,10 @@ I can see a dozen coffees and a concierge here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x32eab10" />
+      <child nodeId="node-0xa6c1b60" />
     </children>
   </item>
-  <item nodeId="node-0x32eab10">
+  <item nodeId="node-0xa6c1b60">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Conference Room
@@ -873,10 +4104,10 @@ I can see a ticket here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x10498aa0" />
+      <child nodeId="node-0xa6c1bd0" />
     </children>
   </item>
-  <item nodeId="node-0x10498aa0">
+  <item nodeId="node-0xa6c1bd0">
     <command xml:space="preserve">take ticket</command>
     <result xml:space="preserve">Taken.
 
@@ -885,10 +4116,10 @@ I can see a ticket here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x1041e530" />
+      <child nodeId="node-0xa6c1c40" />
     </children>
   </item>
-  <item nodeId="node-0x1041e530">
+  <item nodeId="node-0xa6c1c40">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Everett-Fitzgerald Hotel Lobby
@@ -899,10 +4130,10 @@ I can see a concierge here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x12537430" />
+      <child nodeId="node-0xa6c1cb0" />
     </children>
   </item>
-  <item nodeId="node-0x12537430">
+  <item nodeId="node-0xa6c1cb0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">I am carrying:
   a ticket
@@ -915,20 +4146,20 @@ I can see a concierge here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x2b8094d0" />
+      <child nodeId="node-0xa6c1d20" />
     </children>
   </item>
-  <item nodeId="node-0x2b8094d0">
+  <item nodeId="node-0xa6c1d20">
     <command xml:space="preserve">give ticket to concierge</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x1257f890" />
+      <child nodeId="node-0xa6c1d90" />
     </children>
   </item>
-  <item nodeId="node-0x1257f890">
+  <item nodeId="node-0xa6c1d90">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">I am carrying:
   a gym bag (closed)
@@ -941,10 +4172,10 @@ I can see a concierge here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x2b81e340" />
+      <child nodeId="node-0xa6c1e00" />
     </children>
   </item>
-  <item nodeId="node-0x2b81e340">
+  <item nodeId="node-0xa6c1e00">
     <command xml:space="preserve">open gym bag</command>
     <result xml:space="preserve">I open the gym bag, revealing workout clothes.
 
@@ -953,10 +4184,10 @@ I can see a concierge here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x147e3d10" />
+      <child nodeId="node-0xa6c1e70" />
     </children>
   </item>
-  <item nodeId="node-0x147e3d10">
+  <item nodeId="node-0xa6c1e70">
     <command xml:space="preserve">take workout clothes</command>
     <result xml:space="preserve">Taken.
 
@@ -965,10 +4196,10 @@ I can see a concierge here.
     <changed>NO</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x147c49e0" />
+      <child nodeId="node-0xa6c1ee0" />
     </children>
   </item>
-  <item nodeId="node-0x147c49e0">
+  <item nodeId="node-0xa6c1ee0">
     <command xml:space="preserve">put on workout clothes</command>
     <result xml:space="preserve">I put on workout clothes.
 
@@ -977,10 +4208,10 @@ I can see a concierge here.
     <changed>YES</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0x2bd284a0" />
+      <child nodeId="node-0xa6c1f50" />
     </children>
   </item>
-  <item nodeId="node-0x2bd284a0">
+  <item nodeId="node-0xa6c1f50">
     <command xml:space="preserve">wear workout clothes</command>
     <result xml:space="preserve">I&apos;m already wearing that!
 
@@ -989,16 +4220,16 @@ I can see a concierge here.
     <changed>YES</changed>
     <temporary score="659">YES</temporary>
     <children>
-      <child nodeId="node-0xf517990" />
+      <child nodeId="node-0xa6c1fc0" />
     </children>
   </item>
-  <item nodeId="node-0xf517990">
+  <item nodeId="node-0xa6c1fc0">
     <command xml:space="preserve">x self</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="658">YES</temporary>
   </item>
-  <item nodeId="node-0x2f0c40">
+  <item nodeId="node-0xa6c2030">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">(first getting off the toilet)
 I can&apos;t go that way.
@@ -1008,10 +4239,10 @@ I can&apos;t go that way.
     <changed>NO</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0cb0" />
+      <child nodeId="node-0xa6c20a0" />
     </children>
   </item>
-  <item nodeId="node-0x2f0cb0">
+  <item nodeId="node-0xa6c20a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">(first opening the bathroom door)
 
@@ -1029,10 +4260,10 @@ I can see a bathroom door here.
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0d20" />
+      <child nodeId="node-0xa6c2110" />
     </children>
   </item>
-  <item nodeId="node-0x2f0d20">
+  <item nodeId="node-0xa6c2110">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Empty Cubicles
@@ -1045,10 +4276,10 @@ I can see a filing cabinet (closed) here.
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0d90" />
+      <child nodeId="node-0xa6c2180" />
     </children>
   </item>
-  <item nodeId="node-0x2f0d90">
+  <item nodeId="node-0xa6c2180">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">I can&apos;t go that way.
 
@@ -1057,10 +4288,10 @@ I can see a filing cabinet (closed) here.
     <changed>NO</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0e00" />
+      <child nodeId="node-0xa6c21f0" />
     </children>
   </item>
-  <item nodeId="node-0x2f0e00">
+  <item nodeId="node-0xa6c21f0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">I am carrying:
   a loose ceiling tile
@@ -1070,16 +4301,68 @@ I can see a filing cabinet (closed) here.
     <changed>YES</changed>
     <temporary score="17">YES</temporary>
   </item>
-  <item nodeId="node-0x2f0e70">
-    <command xml:space="preserve">use toilet</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0xa6c2260">
+    <command xml:space="preserve">take tile</command>
+    <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c22d0" />
+    </children>
   </item>
-  <item nodeId="node-0x2f0ee0">
+  <item nodeId="node-0xa6c22d0">
+    <command xml:space="preserve">take bag</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2340" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2340">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">I open the duffel bag, revealing a rifle and a stack of cash.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c23b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c23b0">
+    <command xml:space="preserve">take cash</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2420" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2420">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first getting off the toilet)
+I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2490" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2490">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">(first opening the bathroom door)
 
@@ -1095,12 +4378,1447 @@ I can see a bathroom door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="81">YES</temporary>
+    <temporary score="109">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0f50" />
+      <child nodeId="node-0xa6c2500" />
     </children>
   </item>
-  <item nodeId="node-0x2f0f50">
+  <item nodeId="node-0xa6c2500">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+Office Lobby
+The lobby is rather spartan, but not as neglected as the space upstairs. An empty desk for a receptionist sits here, as does a building directory.
+
+I can see through the glass doors in front to 58th Street outside.
+
+I can see a pencil here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2570" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2570">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You are already standing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c25e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c25e0">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2650" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2650">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Olympia Coffee
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c26c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c26c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2730" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2730">
+    <command xml:space="preserve">buy coffee</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c27a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c27a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2810" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2810">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2880" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2880">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c28f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c28f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2960" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2960">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c29d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c29d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Conference Room
+I can see a ticket here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2a40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2a40">
+    <command xml:space="preserve">take ticket</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2ab0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Everett-Fitzgerald Hotel Lobby
+I can see a concierge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2b20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2b20">
+    <command xml:space="preserve">give ticket to concierge</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2b90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2b90">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  a gym bag (closed)
+  a dozen coffees
+  a stack of cash
+  a duffel bag (open)
+    a rifle
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2c00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2c00">
+    <command xml:space="preserve">open gym bag</command>
+    <result xml:space="preserve">I open the gym bag, revealing workout clothes and a pass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2c70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2c70">
+    <command xml:space="preserve">take pass</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2ce0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2d50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2d50">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2dc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2dc0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2e30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2e30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2ea0">
+    <command xml:space="preserve">give pass to manager</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2f10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2f10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Locker Room
+I can see a lockers (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2f80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2f80">
+    <command xml:space="preserve">open lockers</command>
+    <result xml:space="preserve">I open the lockers, revealing an envelope.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c2ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c2ff0">
+    <command xml:space="preserve">take envelop</command>
+    <result xml:space="preserve">I can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3060" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3060">
+    <command xml:space="preserve">take envelope</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c30d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c30d0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  an envelope (closed)
+  a gym bag (open)
+    workout clothes
+  a dozen coffees
+  a stack of cash
+  a duffel bag (open)
+    a rifle
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3140" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3140">
+    <command xml:space="preserve">open envelope</command>
+    <result xml:space="preserve">I open the envelope, revealing a hotel key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c31b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c31b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3220" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3220">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3290" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3290">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3300" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3300">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Columbus Circle
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3370" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3370">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Outside the Macau Grand Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c33e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c33e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3450" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3450">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Macau Grand Hotel Lobby
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c34c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c34c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3530" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3530">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">I&apos;ll need the key to a room before I can use the elevator.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c35a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c35a0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">I am carrying:
+  an envelope (open)
+    a hotel key
+  a gym bag (open)
+    workout clothes
+  a dozen coffees
+  a stack of cash
+  a duffel bag (open)
+    a rifle
+  a loose ceiling tile
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3610" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3610">
+    <command xml:space="preserve">take out key</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take outside.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3680" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3680">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c36f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c36f0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Hallway
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3760" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3760">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Presidential Suite
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c37d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c37d0">
+    <command xml:space="preserve">take out rifle</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3840" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3840">
+    <command xml:space="preserve">take rifle</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c38b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c38b0">
+    <command xml:space="preserve">shoot rifle</command>
+    <result xml:space="preserve">I&apos;ll have to aim it first.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3920" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3920">
+    <command xml:space="preserve">aim rifle</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3990" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3990">
+    <command xml:space="preserve">shoot rifle</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="108">YES</temporary>
+  </item>
+  <item nodeId="node-0xa6c3a00">
+    <command xml:space="preserve">take</command>
+    <result xml:space="preserve">What do you want to take?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3a70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3a70">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">loose ceiling tile: Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3ae0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">You&apos;ll have to be more specific.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3b50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3b50">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Public Bathroom (on the toilet)
+I&apos;m in a public bathroom, lit by a single buzzing fluorescent light. A sink juts out of the wall, the hot water knob missing. A dusty sign above it reads, &quot;Employees must wash hands before returning to work.&quot; A toilet sits in the corner. There&apos;s no toilet paper.
+
+I can see a hole in the ceiling (in which is a duffel bag (closed)) and a bathroom door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3bc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3bc0">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">I open the duffel bag, revealing a stack of cash.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3c30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3c30">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first getting off the toilet)
+I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3ca0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the bathroom door)
+
+Vacant Office Space
+The huge empty office space&apos;s beige drywall and concrete floor are dimly lit by a few emergency lights. Without desks, chairs, or cubicle walls, the place almost looks like a warehouse, albeit one with a decent view of the city. The previous tenant was some kind of telecom, I think, judging by some old hardware and paperwork left behind from their move. I like to use this space since it&apos;s not likely to get leased in a hurry, what with the recession.
+
+I can see a small cluster of cubicles to the west.
+
+From here I can take the elevator down to the lobby.
+
+I can see a bathroom door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3d10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3d10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Empty Cubicles
+The west side of the floor is taken up by the half-broken remnants of a cubicle farm. The empty maze of gray panels resembles a broken hive, long since abandoned by its worker drones. Whatever company moved out of here appears to have been in a hurry; assorted desks and supplies still remain in some of the cubicles, and papers litter the floor.
+
+I can see a paper clip and a filing cabinet (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3d80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3d80">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">You&apos;ll have to be more specific.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3df0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3df0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Vacant Office Space
+The huge empty office space&apos;s beige drywall and concrete floor are dimly lit by a few emergency lights. Without desks, chairs, or cubicle walls, the place almost looks like a warehouse, albeit one with a decent view of the city. The previous tenant was some kind of telecom, I think, judging by some old hardware and paperwork left behind from their move. I like to use this space since it&apos;s not likely to get leased in a hurry, what with the recession.
+
+I can see a small cluster of cubicles to the west.
+
+From here I can take the elevator down to the lobby.
+
+I can see a bathroom door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3e60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3e60">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+Office Lobby
+The lobby is rather spartan, but not as neglected as the space upstairs. An empty desk for a receptionist sits here, as does a building directory.
+
+I can see through the glass doors in front to 58th Street outside.
+
+I can see a pencil here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c3ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c3ed0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+  </item>
+  <item nodeId="node-0xa7e8e60">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0xa7fb9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa7fb9a0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Public Bathroom
+I&apos;m in a public bathroom, lit by a single buzzing fluorescent light. A sink juts out of the wall, the hot water knob missing. A dusty sign above it reads, &quot;Employees must wash hands before returning to work.&quot; A toilet sits in the corner. There&apos;s no toilet paper.
+
+I can see a bathroom door and a loose ceiling tile here.
+
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0xa7627e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa7627e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the bathroom door)
+
+Vacant Office Space
+The huge empty office space&apos;s beige drywall and concrete floor are dimly lit by a few emergency lights. Without desks, chairs, or cubicle walls, the place almost looks like a warehouse, albeit one with a decent view of the city. The previous tenant was some kind of telecom, I think, judging by some old hardware and paperwork left behind from their move. I like to use this space since it&apos;s not likely to get leased in a hurry, what with the recession.
+
+I can see a small cluster of cubicles to the west.
+
+From here I can take the elevator down to the lobby.
+
+I can see a bathroom door here.
+
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x136600" />
+    </children>
+  </item>
+  <item nodeId="node-0x136600">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+Office Lobby
+The lobby is rather spartan, but not as neglected as the space upstairs. An empty desk for a receptionist sits here, as does a building directory.
+
+I can see through the glass doors in front to 58th Street outside.
+
+I can see a pencil here.
+
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0xa7ee6a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa7ee6a0">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0xa792940" />
+    </children>
+  </item>
+  <item nodeId="node-0xa792940">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">
+Office Lobby
+The lobby is rather spartan, but not as neglected as the space upstairs. An empty desk for a receptionist sits here, as does a building directory.
+
+I can see through the glass doors in front to 58th Street outside.
+
+I can see a pencil here.
+
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x11c710" />
+    </children>
+  </item>
+  <item nodeId="node-0x11c710">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x29da460" />
+    </children>
+  </item>
+  <item nodeId="node-0x29da460">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x357e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x357e90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x119c40" />
+    </children>
+  </item>
+  <item nodeId="node-0x119c40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x11c990" />
+    </children>
+  </item>
+  <item nodeId="node-0x11c990">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x3038b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3038b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x237e70" />
+    </children>
+  </item>
+  <item nodeId="node-0x237e70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x2e0cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2e0cc0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x3c5810" />
+    </children>
+  </item>
+  <item nodeId="node-0x3c5810">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x104960" />
+    </children>
+  </item>
+  <item nodeId="node-0x104960">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0xa7c14d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa7c14d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0xa7935f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa7935f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Olympia Coffee
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0xa7930e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa7930e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x3573e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3573e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0xa7abb40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa7abb40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Outside the Everett-Fitzgerald Hotel
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x355a40" />
+    </children>
+  </item>
+  <item nodeId="node-0x355a40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0xa782350" />
+    </children>
+  </item>
+  <item nodeId="node-0xa782350">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x308b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x308b60">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x3662f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3662f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and 7th Ave.
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x31a090" />
+    </children>
+  </item>
+  <item nodeId="node-0x31a090">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Empire Athletic Club
+I can see a manager here.
+
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x328da0" />
+    </children>
+  </item>
+  <item nodeId="node-0x328da0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+Woo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+  </item>
+  <item nodeId="node-0xa6c4020">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the bathroom door)
+
+Vacant Office Space
+The huge empty office space&apos;s beige drywall and concrete floor are dimly lit by a few emergency lights. Without desks, chairs, or cubicle walls, the place almost looks like a warehouse, albeit one with a decent view of the city. The previous tenant was some kind of telecom, I think, judging by some old hardware and paperwork left behind from their move. I like to use this space since it&apos;s not likely to get leased in a hurry, what with the recession.
+
+I can see a small cluster of cubicles to the west.
+
+From here I can take the elevator down to the lobby.
+
+I can see a bathroom door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c4090" />
+      <child nodeId="node-0xa764a70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa764a70">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+Office Lobby
+The lobby is rather spartan, but not as neglected as the space upstairs. An empty desk for a receptionist sits here, as does a building directory.
+
+I can see through the glass doors in front to 58th Street outside.
+
+I can see a pencil here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xa7b02a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa7b02a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xa75fb10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa75fb10">
+    <command xml:space="preserve">go outisde</command>
+    <result xml:space="preserve">I can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xa7d1fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa7d1fd0">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x2b0c10" />
+    </children>
+  </item>
+  <item nodeId="node-0x2b0c10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x1377c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1377c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x380770" />
+    </children>
+  </item>
+  <item nodeId="node-0x380770">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xa7a3110" />
+    </children>
+  </item>
+  <item nodeId="node-0xa7a3110">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xa7b7a10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa7b7a10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x3d62b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3d62b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xa7e7af0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa7e7af0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+W 58th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x322fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x322fd0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x2de440" />
+    </children>
+  </item>
+  <item nodeId="node-0x2de440">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x288430" />
+    </children>
+  </item>
+  <item nodeId="node-0x288430">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x31d6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x31d6b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x32da00" />
+    </children>
+  </item>
+  <item nodeId="node-0x32da00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+W 58th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x327c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x327c60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Empire Athletic Club
+I can see a manager here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xa721b10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa721b10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 58th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x22f340" />
+    </children>
+  </item>
+  <item nodeId="node-0x22f340">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Midtown Animal Hospital
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x15d3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x15d3b0">
+    <command xml:space="preserve">i</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+  </item>
+  <item nodeId="node-0xa6c4090">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Office Lobby
@@ -1113,27 +5831,27 @@ I can see a pencil here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="81">YES</temporary>
+    <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x2f1890" />
-      <child nodeId="node-0x2f17b0" />
-      <child nodeId="node-0x2f0fc0" />
+      <child nodeId="node-0xa6c4aa0" />
+      <child nodeId="node-0xa6c49c0" />
+      <child nodeId="node-0xa6c4100" />
     </children>
   </item>
-  <item nodeId="node-0x2f0fc0">
+  <item nodeId="node-0xa6c4100">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">You are already standing.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="81">YES</temporary>
+    <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x2f16d0" />
-      <child nodeId="node-0x2f09e0" />
+      <child nodeId="node-0xa6c4720" />
+      <child nodeId="node-0xa6c4170" />
     </children>
   </item>
-  <item nodeId="node-0x2f09e0">
+  <item nodeId="node-0xa6c4170">
     <command xml:space="preserve">go outside</command>
     <result xml:space="preserve">
 W 58th St. and Avenue of the Americas
@@ -1143,10 +5861,10 @@ W 58th St. and Avenue of the Americas
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0a50" />
+      <child nodeId="node-0xa6c41e0" />
     </children>
   </item>
-  <item nodeId="node-0x2f0a50">
+  <item nodeId="node-0xa6c41e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Olympia Coffee
@@ -1156,10 +5874,10 @@ Olympia Coffee
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x2f0ac0" />
+      <child nodeId="node-0xa6c4250" />
     </children>
   </item>
-  <item nodeId="node-0x2f0ac0">
+  <item nodeId="node-0xa6c4250">
     <command xml:space="preserve">buy coffee</command>
     <result xml:space="preserve">I&apos;ll need some money to pay for it.
 
@@ -1168,10 +5886,10 @@ Olympia Coffee
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x2f1270" />
+      <child nodeId="node-0xa6c42c0" />
     </children>
   </item>
-  <item nodeId="node-0x2f1270">
+  <item nodeId="node-0xa6c42c0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">I am carrying nothing.
 
@@ -1180,10 +5898,10 @@ Olympia Coffee
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x2f12e0" />
+      <child nodeId="node-0xa6c4330" />
     </children>
   </item>
-  <item nodeId="node-0x2f12e0">
+  <item nodeId="node-0xa6c4330">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 W 58th St. and Avenue of the Americas
@@ -1193,10 +5911,10 @@ W 58th St. and Avenue of the Americas
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x2f1350" />
+      <child nodeId="node-0xa6c43a0" />
     </children>
   </item>
-  <item nodeId="node-0x2f1350">
+  <item nodeId="node-0xa6c43a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 W 59th St. and Avenue of the Americas
@@ -1206,10 +5924,10 @@ W 59th St. and Avenue of the Americas
     <changed>YES</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x2f13c0" />
+      <child nodeId="node-0xa6c4410" />
     </children>
   </item>
-  <item nodeId="node-0x2f13c0">
+  <item nodeId="node-0xa6c4410">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Outside the Everett-Fitzgerald Hotel
@@ -1219,10 +5937,10 @@ Outside the Everett-Fitzgerald Hotel
     <changed>YES</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x2f1430" />
+      <child nodeId="node-0xa6c4480" />
     </children>
   </item>
-  <item nodeId="node-0x2f1430">
+  <item nodeId="node-0xa6c4480">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">I can&apos;t go that way.
 
@@ -1231,10 +5949,10 @@ Outside the Everett-Fitzgerald Hotel
     <changed>YES</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x2f14a0" />
+      <child nodeId="node-0xa6c44f0" />
     </children>
   </item>
-  <item nodeId="node-0x2f14a0">
+  <item nodeId="node-0xa6c44f0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">I can&apos;t go that way.
 
@@ -1243,10 +5961,10 @@ Outside the Everett-Fitzgerald Hotel
     <changed>YES</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x2f1510" />
+      <child nodeId="node-0xa6c4560" />
     </children>
   </item>
-  <item nodeId="node-0x2f1510">
+  <item nodeId="node-0xa6c4560">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">I can&apos;t go that way.
 
@@ -1255,10 +5973,10 @@ Outside the Everett-Fitzgerald Hotel
     <changed>YES</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x2f1580" />
+      <child nodeId="node-0xa6c45d0" />
     </children>
   </item>
-  <item nodeId="node-0x2f1580">
+  <item nodeId="node-0xa6c45d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">I can&apos;t go that way.
 
@@ -1267,10 +5985,10 @@ Outside the Everett-Fitzgerald Hotel
     <changed>YES</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x2f15f0" />
+      <child nodeId="node-0xa6c4640" />
     </children>
   </item>
-  <item nodeId="node-0x2f15f0">
+  <item nodeId="node-0xa6c4640">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can&apos;t go that way.
 
@@ -1279,38 +5997,85 @@ Outside the Everett-Fitzgerald Hotel
     <changed>YES</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x2f1660" />
+      <child nodeId="node-0xa6c46b0" />
     </children>
   </item>
-  <item nodeId="node-0x2f1660">
+  <item nodeId="node-0xa6c46b0">
     <command xml:space="preserve">s</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
   </item>
-  <item nodeId="node-0x2f16d0">
+  <item nodeId="node-0xa6c4720">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">You are already standing.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x2f1740" />
+      <child nodeId="node-0xa6c4790" />
     </children>
   </item>
-  <item nodeId="node-0x2f1740">
+  <item nodeId="node-0xa6c4790">
     <command xml:space="preserve">go outside</command>
     <result xml:space="preserve">
-w58_5
+W 58th St. and Avenue of the Americas
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c4800" />
+    </children>
   </item>
-  <item nodeId="node-0x2f17b0">
+  <item nodeId="node-0xa6c4800">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">I can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c4870" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c4870">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+W 59th St. and Avenue of the Americas
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c48e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c48e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+W 59th St. and 7th Ave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xa6c4950" />
+    </children>
+  </item>
+  <item nodeId="node-0xa6c4950">
+    <command xml:space="preserve">w</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0xa6c49c0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Vacant Office Space
@@ -1327,16 +6092,16 @@ I can see a bathroom door here.
     <changed>YES</changed>
     <temporary score="154">YES</temporary>
     <children>
-      <child nodeId="node-0x2f1820" />
+      <child nodeId="node-0xa6c4a30" />
     </children>
   </item>
-  <item nodeId="node-0x2f1820">
+  <item nodeId="node-0xa6c4a30">
     <command xml:space="preserve">w</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
   </item>
-  <item nodeId="node-0x2f1890">
+  <item nodeId="node-0xa6c4aa0">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">I can&apos;t go that way.
 
@@ -1345,7 +6110,7 @@ I can see a bathroom door here.
     <changed>YES</changed>
     <temporary score="149">YES</temporary>
   </item>
-  <item nodeId="node-0x2f1900">
+  <item nodeId="node-0xa6c4b10">
     <command xml:space="preserve">turn on sink</command>
     <result xml:space="preserve">It isn&apos;t something I can switch.
 
@@ -1354,10 +6119,10 @@ I can see a bathroom door here.
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x2f1970" />
+      <child nodeId="node-0xa6c4b80" />
     </children>
   </item>
-  <item nodeId="node-0x2f1970">
+  <item nodeId="node-0xa6c4b80">
     <command xml:space="preserve">stand on toilet</command>
     <result xml:space="preserve">You are now standing on the toilet.
 
@@ -1366,10 +6131,10 @@ I can see a bathroom door here.
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x2f1030" />
+      <child nodeId="node-0xa6c4bf0" />
     </children>
   </item>
-  <item nodeId="node-0x2f1030">
+  <item nodeId="node-0xa6c4bf0">
     <command xml:space="preserve">take ceiling tile</command>
     <result xml:space="preserve">Taken.
 
@@ -1378,10 +6143,10 @@ I can see a bathroom door here.
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x2f10a0" />
+      <child nodeId="node-0xa6c4c60" />
     </children>
   </item>
-  <item nodeId="node-0x2f10a0">
+  <item nodeId="node-0xa6c4c60">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Public Bathroom (on the toilet)
 I&apos;m in a public bathroom, lit by a single buzzing fluorescent light. A sink juts out of the wall, the hot water knob missing. A dusty sign above it reads, &quot;Employees must wash hands before returning to work.&quot; A toilet sits in the corner. There&apos;s no toilet paper.
@@ -1393,10 +6158,10 @@ I can see a hole in the ceiling (in which is a duffel bag (closed)) here.
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x2f1110" />
+      <child nodeId="node-0xa6c4cd0" />
     </children>
   </item>
-  <item nodeId="node-0x2f1110">
+  <item nodeId="node-0xa6c4cd0">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">hole in the ceiling: Taken.
 duffel bag: Taken.
@@ -1405,14 +6170,5 @@ duffel bag: Taken.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
-    <children>
-      <child nodeId="node-0x2f1180" />
-    </children>
-  </item>
-  <item nodeId="node-0x2f1180">
-    <command xml:space="preserve">look</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="7">YES</temporary>
   </item>
 </Skein>

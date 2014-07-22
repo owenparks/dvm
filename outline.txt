@@ -1,5 +1,6 @@
 Paths:
 
+
 - Crossed keys on concierge uniform at the Ritz
 -"go outside" from office lobby should work as well as "out"
 
@@ -92,3 +93,10 @@ A small group of joggers, possibly triathlon trainees, run past with the singlem
 Random things to add:
 -Broken mirror in the Public Bathroom.
 -I peel off a few twenties and pay for the dozen coffees.
+-Place ceiling tile on floor by default
+
+-Locker room has a combination lock that can be opened with locksmith infos?
+-TODO: Make disposable container class that disappears when empty.
+-It's loaded with one bullet. It's all I usually need.
+
+-To the east, I can see a large glass building in the shape of a cube.
